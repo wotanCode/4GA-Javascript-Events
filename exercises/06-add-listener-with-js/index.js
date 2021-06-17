@@ -4,3 +4,10 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+document.getElementById("theGreen").addEventListener("click", () => {
+	alert("wuju");
+});
+//window.alertafuncion = function alertafuncion() {
+//onclick="alertafuncion();"
+//alert("Your first function!");
+//};
